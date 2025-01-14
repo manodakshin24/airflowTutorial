@@ -27,3 +27,9 @@
 [2025-01-14T11:57:42.034-0500] {job.py:229} INFO - Heartbeat recovered after 3621.46 seconds
 [2025-01-14T12:39:54.409-0500] {job.py:229} INFO - Heartbeat recovered after 2461.67 seconds
 [2025-01-14T13:51:31.174-0500] {job.py:229} INFO - Heartbeat recovered after 3050.67 seconds
+[2025-01-14T15:33:32.183-0500] {job.py:229} INFO - Heartbeat recovered after 355.75 seconds
+[2025-01-14T15:44:26.254-0500] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2025-01-14T15:44:26.260-0500] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-01-14T15:44:26.304-0500] {process_utils.py:132} INFO - Sending 15 to group 59507. PIDs of all processes in the group: [59507]
+[2025-01-14T15:44:26.311-0500] {process_utils.py:87} INFO - Sending the signal 15 to group 59507
+[2025-01-14T15:44:26.316-0500] {process_utils.py:80} INFO - Process psutil.Process(pid=59507, status='terminated', exitcode=<Negsignal.SIGTERM: -15>, started='20:07:13') (59507) terminated with exit code -15

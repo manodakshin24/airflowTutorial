@@ -22,3 +22,11 @@
 [2025-01-13T20:01:16.396-0500] {logging_mixin.py:190} INFO - [2025-01-13T20:01:16.396-0500] {dag.py:4180} INFO - Setting next_dagrun for read_dataset_event to 2025-01-13 00:00:00+00:00, run_after=2025-01-14 00:00:00+00:00
 [2025-01-13T20:01:16.400-0500] {logging_mixin.py:190} INFO - [2025-01-13T20:01:16.400-0500] {dag.py:4180} INFO - Setting next_dagrun for read_dataset_event_from_classic to 2025-01-13 00:00:00+00:00, run_after=2025-01-14 00:00:00+00:00
 [2025-01-13T20:01:16.414-0500] {processor.py:208} INFO - Processing /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.281 seconds
+[2025-01-14T15:55:41.962-0500] {processor.py:186} INFO - Started process (PID=62653) to work on /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-01-14T15:55:41.964-0500] {processor.py:914} INFO - Processing file /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-01-14T15:55:41.965-0500] {logging_mixin.py:190} INFO - [2025-01-14T15:55:41.965-0500] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-01-14T15:55:42.055-0500] {processor.py:925} INFO - DAG(s) 'read_dataset_event_from_classic', 'read_dataset_event' retrieved from /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-01-14T15:55:42.240-0500] {logging_mixin.py:190} INFO - [2025-01-14T15:55:42.240-0500] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-01-14T15:55:42.262-0500] {logging_mixin.py:190} INFO - [2025-01-14T15:55:42.261-0500] {dag.py:4180} INFO - Setting next_dagrun for read_dataset_event to 2025-01-13 00:00:00+00:00, run_after=2025-01-14 00:00:00+00:00
+[2025-01-14T15:55:42.266-0500] {logging_mixin.py:190} INFO - [2025-01-14T15:55:42.266-0500] {dag.py:4180} INFO - Setting next_dagrun for read_dataset_event_from_classic to 2025-01-13 00:00:00+00:00, run_after=2025-01-14 00:00:00+00:00
+[2025-01-14T15:55:42.282-0500] {processor.py:208} INFO - Processing /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.325 seconds

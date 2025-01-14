@@ -19,3 +19,10 @@
 [2025-01-13T20:01:22.468-0500] {logging_mixin.py:190} INFO - [2025-01-13T20:01:22.467-0500] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-13T20:01:22.480-0500] {logging_mixin.py:190} INFO - [2025-01-13T20:01:22.480-0500] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping_with_no_taskflow_operators to None, run_after=None
 [2025-01-13T20:01:22.499-0500] {processor.py:208} INFO - Processing /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py took 0.234 seconds
+[2025-01-14T15:55:48.204-0500] {processor.py:186} INFO - Started process (PID=62660) to work on /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py
+[2025-01-14T15:55:48.206-0500] {processor.py:914} INFO - Processing file /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py for tasks to queue
+[2025-01-14T15:55:48.207-0500] {logging_mixin.py:190} INFO - [2025-01-14T15:55:48.207-0500] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py
+[2025-01-14T15:55:48.217-0500] {processor.py:925} INFO - DAG(s) 'example_dynamic_task_mapping_with_no_taskflow_operators' retrieved from /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py
+[2025-01-14T15:55:48.401-0500] {logging_mixin.py:190} INFO - [2025-01-14T15:55:48.401-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-14T15:55:48.413-0500] {logging_mixin.py:190} INFO - [2025-01-14T15:55:48.413-0500] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping_with_no_taskflow_operators to None, run_after=None
+[2025-01-14T15:55:48.430-0500] {processor.py:208} INFO - Processing /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py took 0.232 seconds

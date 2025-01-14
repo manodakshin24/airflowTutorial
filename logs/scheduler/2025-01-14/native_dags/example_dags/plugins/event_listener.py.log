@@ -18,3 +18,13 @@
 [2025-01-13T19:53:35.184-0500] {logging_mixin.py:190} INFO - [2025-01-13T19:53:35.183-0500] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
 [2025-01-13T19:53:35.189-0500] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
 [2025-01-13T19:53:35.706-0500] {processor.py:208} INFO - Processing /usr/local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.544 seconds
+[2025-01-14T15:44:45.741-0500] {processor.py:186} INFO - Started process (PID=52625) to work on /usr/local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2025-01-14T15:44:45.743-0500] {processor.py:914} INFO - Processing file /usr/local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2025-01-14T15:44:45.745-0500] {logging_mixin.py:190} INFO - [2025-01-14T15:44:45.744-0500] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2025-01-14T15:44:45.747-0500] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2025-01-14T15:44:45.932-0500] {processor.py:208} INFO - Processing /usr/local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.196 seconds
+[2025-01-14T15:53:16.040-0500] {processor.py:186} INFO - Started process (PID=60924) to work on /usr/local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2025-01-14T15:53:16.042-0500] {processor.py:914} INFO - Processing file /usr/local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2025-01-14T15:53:16.043-0500] {logging_mixin.py:190} INFO - [2025-01-14T15:53:16.043-0500] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2025-01-14T15:53:16.044-0500] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2025-01-14T15:53:16.199-0500] {processor.py:208} INFO - Processing /usr/local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.164 seconds

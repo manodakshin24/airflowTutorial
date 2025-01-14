@@ -26,3 +26,25 @@
 [2025-01-13T19:53:14.441-0500] {logging_mixin.py:190} INFO - [2025-01-13T19:53:14.441-0500] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-13T19:53:14.460-0500] {logging_mixin.py:190} INFO - [2025-01-13T19:53:14.460-0500] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-01-14 00:00:00+00:00, run_after=2025-01-15 00:00:00+00:00
 [2025-01-13T19:53:14.474-0500] {processor.py:208} INFO - Processing /Users/dakshinrajavel/Documents/airflowTutorial/dags/tutorial_taskflow_api.py took 0.223 seconds
+[2025-01-14T15:44:32.674-0500] {processor.py:186} INFO - Started process (PID=52477) to work on /Users/dakshinrajavel/Documents/airflowTutorial/dags/tutorial_taskflow_api.py
+[2025-01-14T15:44:32.676-0500] {processor.py:914} INFO - Processing file /Users/dakshinrajavel/Documents/airflowTutorial/dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-14T15:44:32.677-0500] {logging_mixin.py:190} INFO - [2025-01-14T15:44:32.677-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dakshinrajavel/Documents/airflowTutorial/dags/tutorial_taskflow_api.py
+[2025-01-14T15:44:32.714-0500] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /Users/dakshinrajavel/Documents/airflowTutorial/dags/tutorial_taskflow_api.py
+[2025-01-14T15:44:32.975-0500] {logging_mixin.py:190} INFO - [2025-01-14T15:44:32.974-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-14T15:44:32.984-0500] {logging_mixin.py:190} INFO - [2025-01-14T15:44:32.984-0500] {dag.py:3262} INFO - Creating ORM DAG for my_dag
+[2025-01-14T15:44:32.993-0500] {logging_mixin.py:190} INFO - [2025-01-14T15:44:32.992-0500] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-01-13 00:00:00+00:00, run_after=2025-01-14 00:00:00+00:00
+[2025-01-14T15:44:33.009-0500] {processor.py:208} INFO - Processing /Users/dakshinrajavel/Documents/airflowTutorial/dags/tutorial_taskflow_api.py took 0.339 seconds
+[2025-01-14T15:53:04.169-0500] {processor.py:186} INFO - Started process (PID=60729) to work on /Users/dakshinrajavel/Documents/airflowTutorial/dags/tutorial_taskflow_api.py
+[2025-01-14T15:53:04.171-0500] {processor.py:914} INFO - Processing file /Users/dakshinrajavel/Documents/airflowTutorial/dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-14T15:53:04.172-0500] {logging_mixin.py:190} INFO - [2025-01-14T15:53:04.172-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dakshinrajavel/Documents/airflowTutorial/dags/tutorial_taskflow_api.py
+[2025-01-14T15:53:04.202-0500] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /Users/dakshinrajavel/Documents/airflowTutorial/dags/tutorial_taskflow_api.py
+[2025-01-14T15:53:04.379-0500] {logging_mixin.py:190} INFO - [2025-01-14T15:53:04.378-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-14T15:53:04.399-0500] {logging_mixin.py:190} INFO - [2025-01-14T15:53:04.398-0500] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-01-13 00:00:00+00:00, run_after=2025-01-14 00:00:00+00:00
+[2025-01-14T15:53:04.415-0500] {processor.py:208} INFO - Processing /Users/dakshinrajavel/Documents/airflowTutorial/dags/tutorial_taskflow_api.py took 0.251 seconds
+[2025-01-14T15:56:50.848-0500] {processor.py:186} INFO - Started process (PID=63470) to work on /Users/dakshinrajavel/Documents/airflowTutorial/dags/tutorial_taskflow_api.py
+[2025-01-14T15:56:50.849-0500] {processor.py:914} INFO - Processing file /Users/dakshinrajavel/Documents/airflowTutorial/dags/tutorial_taskflow_api.py for tasks to queue
+[2025-01-14T15:56:50.850-0500] {logging_mixin.py:190} INFO - [2025-01-14T15:56:50.850-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dakshinrajavel/Documents/airflowTutorial/dags/tutorial_taskflow_api.py
+[2025-01-14T15:56:50.882-0500] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /Users/dakshinrajavel/Documents/airflowTutorial/dags/tutorial_taskflow_api.py
+[2025-01-14T15:56:51.055-0500] {logging_mixin.py:190} INFO - [2025-01-14T15:56:51.055-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-14T15:56:51.076-0500] {logging_mixin.py:190} INFO - [2025-01-14T15:56:51.075-0500] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-01-14 00:00:00+00:00, run_after=2025-01-15 00:00:00+00:00
+[2025-01-14T15:56:51.093-0500] {processor.py:208} INFO - Processing /Users/dakshinrajavel/Documents/airflowTutorial/dags/tutorial_taskflow_api.py took 0.249 seconds
