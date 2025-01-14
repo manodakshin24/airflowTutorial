@@ -1,0 +1,21 @@
+[2025-01-13T19:06:58.733-0500] {processor.py:186} INFO - Started process (PID=48958) to work on /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-01-13T19:06:58.734-0500] {processor.py:914} INFO - Processing file /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-01-13T19:06:58.736-0500] {logging_mixin.py:190} INFO - [2025-01-13T19:06:58.735-0500] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-01-13T19:06:58.746-0500] {processor.py:925} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-01-13T19:06:58.903-0500] {logging_mixin.py:190} INFO - [2025-01-13T19:06:58.902-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-13T19:06:58.919-0500] {logging_mixin.py:190} INFO - [2025-01-13T19:06:58.919-0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-01-13 20:00:00+00:00, run_after=2025-01-14 00:00:00+00:00
+[2025-01-13T19:06:58.934-0500] {processor.py:208} INFO - Processing /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.206 seconds
+[2025-01-13T19:09:34.423-0500] {processor.py:186} INFO - Started process (PID=50720) to work on /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-01-13T19:09:34.424-0500] {processor.py:914} INFO - Processing file /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-01-13T19:09:34.425-0500] {logging_mixin.py:190} INFO - [2025-01-13T19:09:34.425-0500] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-01-13T19:09:34.434-0500] {processor.py:925} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-01-13T19:09:34.593-0500] {logging_mixin.py:190} INFO - [2025-01-13T19:09:34.592-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-13T19:09:34.608-0500] {logging_mixin.py:190} INFO - [2025-01-13T19:09:34.608-0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-01-13 20:00:00+00:00, run_after=2025-01-14 00:00:00+00:00
+[2025-01-13T19:09:34.624-0500] {processor.py:208} INFO - Processing /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.204 seconds
+[2025-01-13T20:01:08.348-0500] {processor.py:186} INFO - Started process (PID=55298) to work on /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-01-13T20:01:08.350-0500] {processor.py:914} INFO - Processing file /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-01-13T20:01:08.351-0500] {logging_mixin.py:190} INFO - [2025-01-13T20:01:08.351-0500] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-01-13T20:01:08.363-0500] {processor.py:925} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-01-13T20:01:08.547-0500] {logging_mixin.py:190} INFO - [2025-01-13T20:01:08.546-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-13T20:01:08.567-0500] {logging_mixin.py:190} INFO - [2025-01-13T20:01:08.566-0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-01-13 20:00:00+00:00, run_after=2025-01-14 00:00:00+00:00
+[2025-01-13T20:01:08.583-0500] {processor.py:208} INFO - Processing /usr/local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.240 seconds

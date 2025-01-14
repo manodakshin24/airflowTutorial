@@ -1,0 +1,26 @@
+[2025-01-13T20:02:08.924-0500] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-13T20:02:08.934-0500] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: my_dag.training_model_B manual__2025-01-14T01:02:00.936231+00:00 [queued]>
+[2025-01-13T20:02:08.940-0500] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: my_dag.training_model_B manual__2025-01-14T01:02:00.936231+00:00 [queued]>
+[2025-01-13T20:02:08.940-0500] {taskinstance.py:2866} INFO - Starting attempt 1 of 3
+[2025-01-13T20:02:08.951-0500] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): training_model_B> on 2025-01-14 01:02:00.936231+00:00
+[2025-01-13T20:02:08.956-0500] {standard_task_runner.py:72} INFO - Started process 56043 to run task
+[2025-01-13T20:02:08.964-0500] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'my_dag', 'training_model_B', 'manual__2025-01-14T01:02:00.936231+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/tutorial_taskflow_api.py', '--cfg-path', '/var/folders/ll/2bfcn_d54ks002mx2dw82c2m0000gn/T/tmp54hhm3m6']
+[2025-01-13T20:02:08.967-0500] {standard_task_runner.py:105} INFO - Job 49: Subtask training_model_B
+[2025-01-13T20:02:09.010-0500] {task_command.py:467} INFO - Running <TaskInstance: my_dag.training_model_B manual__2025-01-14T01:02:00.936231+00:00 [running]> on host macbook-pro-2.local
+[2025-01-13T20:02:09.072-0500] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='my_dag' AIRFLOW_CTX_TASK_ID='training_model_B' AIRFLOW_CTX_EXECUTION_DATE='2025-01-14T01:02:00.936231+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-14T01:02:00.936231+00:00'
+[2025-01-13T20:02:09.073-0500] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-13T20:02:09.074-0500] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-13T20:02:09.075-0500] {logging_mixin.py:190} INFO - Current task name:training_model_B state:running start_date:2025-01-14 01:02:08.934866+00:00
+[2025-01-13T20:02:09.075-0500] {logging_mixin.py:190} INFO - Dag name:my_dag and current dag run status:running
+[2025-01-13T20:02:09.076-0500] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-13T20:07:09.078-0500] {python.py:240} INFO - Done. Returned value was: 10
+[2025-01-13T20:07:09.109-0500] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-13T20:07:09.111-0500] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=my_dag, task_id=training_model_B, run_id=manual__2025-01-14T01:02:00.936231+00:00, execution_date=20250114T010200, start_date=20250114T010208, end_date=20250114T010709
+[2025-01-13T20:07:09.122-0500] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-13T20:07:09.123-0500] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-13T20:07:09.124-0500] {logging_mixin.py:190} INFO - Dag name:my_dag queued_at:2025-01-14 01:02:00.972783+00:00
+[2025-01-13T20:07:09.125-0500] {logging_mixin.py:190} INFO - Task hostname:macbook-pro-2.local operator:PythonOperator
+[2025-01-13T20:07:09.153-0500] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-13T20:07:09.175-0500] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-13T20:07:09.176-0500] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-01-13T20:07:09.177-0500] {standard_task_runner.py:217} INFO - Process not found (most likely exited), stop collecting metrics
