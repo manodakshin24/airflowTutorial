@@ -36,7 +36,9 @@ Alternatively, you can also use airflow standalone to initialize the database, c
 
 Understanding the DAG
 
-The DAG in my_dag.py trains three models and chooses the best one based on accuracy. Key tasks:
+The DAG in my_dag.py trains three models and chooses the best one based on accuracy. 
+
+Key tasks:
 
 Model Training: Three tasks simulate training models by generating random accuracy scores.
 Model Selection: A task evaluates the best model using the BranchPythonOperator.
