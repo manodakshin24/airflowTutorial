@@ -1,0 +1,37 @@
+[2025-01-17T19:03:46.754-0500] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-17T19:03:46.762-0500] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: my_dag.training_model_A scheduled__2025-01-17T00:00:00+00:00 [queued]>
+[2025-01-17T19:03:46.767-0500] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: my_dag.training_model_A scheduled__2025-01-17T00:00:00+00:00 [queued]>
+[2025-01-17T19:03:46.767-0500] {taskinstance.py:2866} INFO - Starting attempt 1 of 3
+[2025-01-17T19:03:46.777-0500] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): training_model_A> on 2025-01-17 00:00:00+00:00
+[2025-01-17T19:03:46.782-0500] {standard_task_runner.py:72} INFO - Started process 1425 to run task
+[2025-01-17T19:03:46.788-0500] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'my_dag', 'training_model_A', 'scheduled__2025-01-17T00:00:00+00:00', '--job-id', '113', '--raw', '--subdir', 'DAGS_FOLDER/tutorial_taskflow_api.py', '--cfg-path', '/var/folders/ll/2bfcn_d54ks002mx2dw82c2m0000gn/T/tmp03r1mqqq']
+[2025-01-17T19:03:46.791-0500] {standard_task_runner.py:105} INFO - Job 113: Subtask training_model_A
+[2025-01-17T19:20:24.953-0500] {job.py:229} INFO - Heartbeat recovered after 902.31 seconds
+[2025-01-17T19:36:57.132-0500] {job.py:229} INFO - Heartbeat recovered after 901.30 seconds
+[2025-01-17T19:54:13.476-0500] {job.py:229} INFO - Heartbeat recovered after 900.15 seconds
+[2025-01-17T20:03:04.897-0500] {job.py:229} INFO - Heartbeat recovered after 486.04 seconds
+[2025-01-17T20:20:23.877-0500] {job.py:229} INFO - Heartbeat recovered after 988.53 seconds
+[2025-01-17T20:36:52.985-0500] {job.py:229} INFO - Heartbeat recovered after 943.71 seconds
+[2025-01-17T20:54:22.948-0500] {job.py:229} INFO - Heartbeat recovered after 949.08 seconds
+[2025-01-17T21:04:07.293-0500] {job.py:229} INFO - Heartbeat recovered after 397.72 seconds
+[2025-01-17T21:29:16.955-0500] {job.py:229} INFO - Heartbeat recovered after 1066.57 seconds
+[2025-01-17T22:05:14.027-0500] {job.py:229} INFO - Heartbeat recovered after 758.31 seconds
+[2025-01-17T23:06:20.365-0500] {job.py:229} INFO - Heartbeat recovered after 3641.11 seconds
+[2025-01-18T00:07:27.566-0500] {job.py:229} INFO - Heartbeat recovered after 3641.36 seconds
+[2025-01-18T02:08:00.483-0500] {job.py:229} INFO - Heartbeat recovered after 7202.75 seconds
+[2025-01-18T02:27:04.135-0500] {job.py:229} INFO - Heartbeat recovered after 1133.59 seconds
+[2025-01-18T04:05:03.284-0500] {job.py:229} INFO - Heartbeat recovered after 5868.89 seconds
+[2025-01-18T06:05:19.852-0500] {job.py:229} INFO - Heartbeat recovered after 7206.46 seconds
+[2025-01-18T07:06:28.333-0500] {job.py:229} INFO - Heartbeat recovered after 3658.33 seconds
+[2025-01-18T08:07:35.306-0500] {job.py:229} INFO - Heartbeat recovered after 3611.48 seconds
+[2025-01-18T09:08:43.467-0500] {job.py:229} INFO - Heartbeat recovered after 3637.98 seconds
+[2025-01-18T09:53:39.401-0500] {job.py:229} INFO - Heartbeat recovered after 2665.77 seconds
+[2025-01-18T09:59:15.129-0500] {job.py:229} INFO - Heartbeat recovered after 295.46 seconds
+[2025-01-18T10:09:45.568-0500] {job.py:229} INFO - Heartbeat recovered after 590.08 seconds
+[2025-01-18T10:40:07.122-0500] {job.py:229} INFO - Heartbeat recovered after 1776.13 seconds
+[2025-01-18T11:10:49.068-0500] {job.py:229} INFO - Heartbeat recovered after 1796.57 seconds
+[2025-01-18T11:52:31.440-0500] {job.py:229} INFO - Heartbeat recovered after 2462.08 seconds
+[2025-01-18T12:46:32.113-0500] {job.py:229} INFO - Heartbeat recovered after 1807.23 seconds
+[2025-01-18T15:04:05.422-0500] {job.py:229} INFO - Heartbeat recovered after 6484.33 seconds
+[2025-01-18T15:04:48.808-0500] {job.py:229} INFO - Heartbeat recovered after 33.44 seconds
+[2025-01-18T15:55:58.109-0500] {job.py:229} INFO - Heartbeat recovered after 2551.48 seconds
