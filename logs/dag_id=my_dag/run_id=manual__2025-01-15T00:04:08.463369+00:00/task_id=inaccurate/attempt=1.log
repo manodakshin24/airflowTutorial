@@ -1,0 +1,29 @@
+[2025-01-14T19:04:28.859-0500] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-14T19:04:28.874-0500] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: my_dag.inaccurate manual__2025-01-15T00:04:08.463369+00:00 [queued]>
+[2025-01-14T19:04:28.884-0500] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: my_dag.inaccurate manual__2025-01-15T00:04:08.463369+00:00 [queued]>
+[2025-01-14T19:04:28.884-0500] {taskinstance.py:2866} INFO - Starting attempt 1 of 3
+[2025-01-14T19:04:28.897-0500] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): inaccurate> on 2025-01-15 00:04:08.463369+00:00
+[2025-01-14T19:04:28.903-0500] {standard_task_runner.py:72} INFO - Started process 79137 to run task
+[2025-01-14T19:04:28.910-0500] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'my_dag', 'inaccurate', 'manual__2025-01-15T00:04:08.463369+00:00', '--job-id', '97', '--raw', '--subdir', 'DAGS_FOLDER/tutorial_taskflow_api.py', '--cfg-path', '/var/folders/ll/2bfcn_d54ks002mx2dw82c2m0000gn/T/tmphhi9dsjh']
+[2025-01-14T19:04:28.913-0500] {standard_task_runner.py:105} INFO - Job 97: Subtask inaccurate
+[2025-01-14T19:04:28.961-0500] {task_command.py:467} INFO - Running <TaskInstance: my_dag.inaccurate manual__2025-01-15T00:04:08.463369+00:00 [running]> on host macbook-pro-2.local
+[2025-01-14T19:04:29.027-0500] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='my_dag' AIRFLOW_CTX_TASK_ID='inaccurate' AIRFLOW_CTX_EXECUTION_DATE='2025-01-15T00:04:08.463369+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-15T00:04:08.463369+00:00'
+[2025-01-14T19:04:29.029-0500] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-14T19:04:29.030-0500] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-14T19:04:29.031-0500] {logging_mixin.py:190} INFO - Current task name:inaccurate state:running start_date:2025-01-15 00:04:28.875087+00:00
+[2025-01-14T19:04:29.031-0500] {logging_mixin.py:190} INFO - Dag name:my_dag and current dag run status:running
+[2025-01-14T19:04:29.032-0500] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-14T19:04:29.034-0500] {subprocess.py:78} INFO - Tmp dir root location: /var/folders/ll/2bfcn_d54ks002mx2dw82c2m0000gn/T
+[2025-01-14T19:04:29.035-0500] {subprocess.py:88} INFO - Running command: ['/bin/bash', '-c', "echo 'inaccurate'"]
+[2025-01-14T19:04:29.042-0500] {subprocess.py:99} INFO - Output:
+[2025-01-14T19:04:29.046-0500] {subprocess.py:106} INFO - inaccurate
+[2025-01-14T19:04:29.047-0500] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-01-14T19:04:29.064-0500] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-14T19:04:29.066-0500] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=my_dag, task_id=inaccurate, run_id=manual__2025-01-15T00:04:08.463369+00:00, execution_date=20250115T000408, start_date=20250115T000428, end_date=20250115T000429
+[2025-01-14T19:04:29.074-0500] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-14T19:04:29.075-0500] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-14T19:04:29.075-0500] {logging_mixin.py:190} INFO - Dag name:my_dag queued_at:2025-01-15 00:04:08.484465+00:00
+[2025-01-14T19:04:29.076-0500] {logging_mixin.py:190} INFO - Task hostname:macbook-pro-2.local operator:BashOperator
+[2025-01-14T19:04:29.083-0500] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-14T19:04:29.099-0500] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-14T19:04:29.100-0500] {local_task_job_runner.py:245} INFO - ::endgroup::

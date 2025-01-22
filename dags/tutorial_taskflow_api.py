@@ -19,12 +19,12 @@ def _choose_best_model(ti):
     if not all(accuracies):
         raise ValueError("One or more models did not return a valid accuracy.")
     best_accuracy = max(accuracies)
-    if best_accuracy > 8:
+    if best_accuracy > 80:
         return 'accurate'
     return 'inaccurate'
 
 def _training_model():
-    return randint(1, 10)
+    return randint(1, 100)
 
 def delay_task():
     time.sleep(300)  # Delays the task by 300 seconds
