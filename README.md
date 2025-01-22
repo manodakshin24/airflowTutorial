@@ -36,7 +36,7 @@ Alternatively, you can also use airflow standalone to initialize the database, c
 
 Understanding the DAG
 
-The DAG in my_dag.py trains three models and chooses the best one based on accuracy. 
+The DAG in tutorial_taskflow_api.py trains three models and chooses the best one based on accuracy. 
 
 Key tasks:
 
